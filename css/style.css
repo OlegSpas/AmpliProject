@@ -1468,6 +1468,10 @@ label, a{
     .card-text {
         height: 40%;
     }
+
+    .btn_add a {
+        padding: 10px 20px;
+    }
 }
 
 
@@ -1776,13 +1780,6 @@ label, a{
         flex-direction: column;
     }
 
-    .left-photo_list,
-    .right-photo_list,
-    .up-photos, {
-        display: flex;
-        flex-direction: column;
-    }
-
     .funiro_one img {
         height: 260px;
     }
@@ -1854,17 +1851,13 @@ label, a{
     .card-text {
         height: 30%;
     }
-
-
-
     .tr_card {
         width: 90%;
     }
 
     .hid_card {
         display: none;
-    }
-    
+    } 
 }
 
 @media screen and (max-width: 375px) {
@@ -1927,5 +1920,17 @@ label, a{
         bottom: 60%;
         z-index: 6;
 
+    }
+
+    #funiro {
+        margin-top: 30%;
+    }
+
+    #trips {
+        margin-top: 30%;
+    }
+
+    .rectangle {
+        margin-top: 30%;
     }
 }
